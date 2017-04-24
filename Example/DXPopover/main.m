@@ -2,8 +2,8 @@
 //  main.m
 //  DXPopover
 //
-//  Created by yinglong.zhang on 04/24/2017.
-//  Copyright (c) 2017 yinglong.zhang. All rights reserved.
+//  Created by zhangyinglong on 04/24/2017.
+//  Copyright (c) 2017 zhangyinglong. All rights reserved.
 //
 
 @import UIKit;

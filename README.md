@@ -1,6 +1,6 @@
 # DXPopover
 
-[![CI Status](http://img.shields.io/travis/yinglong.zhang/DXPopover.svg?style=flat)](https://travis-ci.org/yinglong.zhang/DXPopover)
+[![CI Status](http://img.shields.io/travis/zhangyinglong/DXPopover.svg?style=flat)](https://travis-ci.org/zhangyinglong/DXPopover)
 [![Version](https://img.shields.io/cocoapods/v/DXPopover.svg?style=flat)](http://cocoapods.org/pods/DXPopover)
 [![License](https://img.shields.io/cocoapods/l/DXPopover.svg?style=flat)](http://cocoapods.org/pods/DXPopover)
 [![Platform](https://img.shields.io/cocoapods/p/DXPopover.svg?style=flat)](http://cocoapods.org/pods/DXPopover)
@@ -22,7 +22,7 @@ pod "DXPopover"
 
 ## Author
 
-yinglong.zhang, yinglong.zhang@funplus.com
+zhangyinglong, zyl04401@gmail.com
 
 ## License
 
