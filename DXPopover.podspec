@@ -1,37 +1,40 @@
 #
 # Be sure to run `pod lib lint DXPopover.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
+# valid spec before submitting.
 #
-# Any lines starting with a # are optional, but encouraged
-#
+# Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
 Pod::Spec.new do |s|
-  s.name             = "DXPopover"
-  s.version          = "0.1.2"
-  s.summary          = "A Popover mimic Facebook  app popover using UIKit."
-  s.description      = <<-DESC
-                       A Popover mimic Facebook  app popover using UIKit.
+  s.name             = 'DXPopover'
+  s.version          = '0.1.0'
+  s.summary          = 'A short description of DXPopover.'
 
-                       The concept of this popover is very simple: add your contentView in a popover, then show the popover in the container view.
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
                        DESC
-  s.homepage         = "https://github.com/xiekw2010/DXPopover"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "xiekw2010" => "xiekw2010@gmail.com" }
-  s.source           = { :git => "https://github.com/xiekw2010/DXPopover.git", :tag => s.version.to_s }
+
+  s.homepage         = 'https://github.com/yinglong.zhang/DXPopover'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'yinglong.zhang' => 'yinglong.zhang@funplus.com' }
+  s.source           = { :git => 'https://github.com/yinglong.zhang/DXPopover.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
+  s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'DXPopover' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'DXPopover/Classes/**/*'
+  
+  # s.resource_bundles = {
+  #   'DXPopover' => ['DXPopover/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

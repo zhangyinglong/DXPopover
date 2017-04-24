@@ -2,13 +2,15 @@ PODS:
   - DXPopover (0.1.0)
 
 DEPENDENCIES:
-  - DXPopover (from `..`)
+  - DXPopover (from `../`)
 
 EXTERNAL SOURCES:
   DXPopover:
-    :path: ..
+    :path: "../"
 
 SPEC CHECKSUMS:
-  DXPopover: ebe1b01f58de58d6f837698e404cae09c3fea499
+  DXPopover: 29f14f0caebf5ba8f8bc8bec202adf7da3537c35
 
-COCOAPODS: 0.35.0
+PODFILE CHECKSUM: 988126f4ac9d4707579ec590f7be392735a675d1
+
+COCOAPODS: 1.2.1

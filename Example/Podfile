@@ -1,1 +1,13 @@
-pod 'DXPopover', :path=>'..'
+
+platform :ios, '8.0'
+use_frameworks!
+
+target 'DXPopover_Example' do
+  pod 'DXPopover', :path => '../'
+
+  target 'DXPopover_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,22 @@
+{
+  "name": "DXPopover",
+  "version": "0.1.0",
+  "summary": "A short description of DXPopover.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yinglong.zhang/DXPopover",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yinglong.zhang": "yinglong.zhang@funplus.com"
+  },
+  "source": {
+    "git": "https://github.com/yinglong.zhang/DXPopover.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DXPopover/Classes/**/*"
+}
